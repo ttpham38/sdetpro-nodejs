@@ -3,12 +3,12 @@ const readline = require("readline-sync");
 // Data - In memory DB
 const teoAccount = {
     name: "Tung",
-    accountNumber: '12345678',
-    routingNumber: '112233',
+    accountNumber: '9962755538',
+    routingNumber: 'VCB',
     balance: 100000
 };
 const tiAccount = JSON.parse(JSON.stringify(teoAccount));
-tiAccount.name = 'Ti';
+tiAccount.name = 'Tu4g';
 tiAccount.accountNumber = '987654321';
 tiAccount.balance = 50000;
 const bankAccounts = [teoAccount, tiAccount];
